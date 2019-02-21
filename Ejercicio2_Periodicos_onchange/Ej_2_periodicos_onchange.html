@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Periódicos</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/funciones.js"></script> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+	<div class="container">
+		
+        <h3>Elige un periodico:</h3>
+		<select name="periodico" class="custom-select" id=url onchange="mostrarEnlace();">
+            <option selected>Seleccione periodico</option>
+            <option id="elpais" value="https://elpais.com/" >EL PAIS</option>
+            <option id="abc" value='https://www.abc.es/' >ABC</option>
+            <option id="elmundo" value='https://www.elmundo.es/' >EL MUNDO</option>
+        </select>	
+		<br>
+	</div>
+    </body>
+</html>
